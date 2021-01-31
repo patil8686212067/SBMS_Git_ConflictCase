@@ -8,8 +8,13 @@ import com.ashokit.service.UserService;
 
 @SpringBootApplication
 public class Application {
-	//pradeep is working on HIS-300 with feature-300 branch
-     private Static final String Rest_Url="https://www.equifax.com";
+     public void callRestAPI()
+	 {
+		 
+		 //vithal is working on HIS-301 with feature-301 branch
+		 
+		 
+	 }
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ctxt =
 				SpringApplication.run(Application.class, args);
